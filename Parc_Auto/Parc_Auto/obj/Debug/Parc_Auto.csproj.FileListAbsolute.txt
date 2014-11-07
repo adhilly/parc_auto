@@ -9,6 +9,16 @@ D:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Properties.Resources.re
 D:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.csproj.GenerateResource.Cache
 D:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.exe
 D:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.pdb
+<<<<<<< HEAD
+M:\parc_auto\parc_auto\Parc_Auto\bin\Debug\Parc_Auto.exe.config
+M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.exe
+M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.pdb
+M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.csprojResolveAssemblyReference.cache
+M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.frmAccueil.resources
+M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FrmAjouterPersonne.resources
+M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Properties.Resources.resources
+M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.csproj.GenerateResource.Cache
+=======
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.exe
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.pdb
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.csprojResolveAssemblyReference.cache
@@ -20,3 +30,5 @@ H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\bin\Debug\Parc_Auto.exe
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\bin\Debug\Parc_Auto.pdb
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\bin\Debug\Metier.dll
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\bin\Debug\Metier.pdb
+>>>>>>> 838b73f42086af5cb2cdad6707f0ca652a36a235
+>>>>>>> f43a91e131604c848a4abcc5043ef40b206f317c

@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.tb_FAJouterPersonne_Nom = new System.Windows.Forms.TextBox();
+            this.tb_FAJouterPersonne_Prenom = new System.Windows.Forms.TextBox();
+            this.tb_FAJouterPersonne_Ville = new System.Windows.Forms.TextBox();
+            this.bt_FAJouterPersonne_Fermer = new System.Windows.Forms.Button();
+            this.bt_FAJouterPersonne_Ajouter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,44 +76,46 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Ville :";
             // 
-            // textBox1
+            // tb_FAJouterPersonne_Nom
             // 
-            this.textBox1.Location = new System.Drawing.Point(132, 104);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(232, 20);
-            this.textBox1.TabIndex = 4;
+            this.tb_FAJouterPersonne_Nom.Location = new System.Drawing.Point(132, 104);
+            this.tb_FAJouterPersonne_Nom.Name = "tb_FAJouterPersonne_Nom";
+            this.tb_FAJouterPersonne_Nom.Size = new System.Drawing.Size(232, 20);
+            this.tb_FAJouterPersonne_Nom.TabIndex = 4;
             // 
-            // textBox2
+            // tb_FAJouterPersonne_Prenom
             // 
-            this.textBox2.Location = new System.Drawing.Point(132, 144);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(232, 20);
-            this.textBox2.TabIndex = 5;
+            this.tb_FAJouterPersonne_Prenom.Location = new System.Drawing.Point(132, 144);
+            this.tb_FAJouterPersonne_Prenom.Name = "tb_FAJouterPersonne_Prenom";
+            this.tb_FAJouterPersonne_Prenom.Size = new System.Drawing.Size(232, 20);
+            this.tb_FAJouterPersonne_Prenom.TabIndex = 5;
             // 
-            // textBox3
+            // tb_FAJouterPersonne_Ville
             // 
-            this.textBox3.Location = new System.Drawing.Point(132, 193);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(232, 20);
-            this.textBox3.TabIndex = 6;
+            this.tb_FAJouterPersonne_Ville.Location = new System.Drawing.Point(132, 193);
+            this.tb_FAJouterPersonne_Ville.Name = "tb_FAJouterPersonne_Ville";
+            this.tb_FAJouterPersonne_Ville.Size = new System.Drawing.Size(232, 20);
+            this.tb_FAJouterPersonne_Ville.TabIndex = 6;
             // 
-            // button1
+            // bt_FAJouterPersonne_Fermer
             // 
-            this.button1.Location = new System.Drawing.Point(55, 280);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Fermer";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bt_FAJouterPersonne_Fermer.Location = new System.Drawing.Point(55, 280);
+            this.bt_FAJouterPersonne_Fermer.Name = "bt_FAJouterPersonne_Fermer";
+            this.bt_FAJouterPersonne_Fermer.Size = new System.Drawing.Size(75, 23);
+            this.bt_FAJouterPersonne_Fermer.TabIndex = 7;
+            this.bt_FAJouterPersonne_Fermer.Text = "Fermer";
+            this.bt_FAJouterPersonne_Fermer.UseVisualStyleBackColor = true;
+            this.bt_FAJouterPersonne_Fermer.Click += new System.EventHandler(this.bt_FAJouterPersonne_Fermer_Click);
             // 
-            // button2
+            // bt_FAJouterPersonne_Ajouter
             // 
-            this.button2.Location = new System.Drawing.Point(248, 280);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Ajouter";
-            this.button2.UseVisualStyleBackColor = true;
+            this.bt_FAJouterPersonne_Ajouter.Location = new System.Drawing.Point(248, 280);
+            this.bt_FAJouterPersonne_Ajouter.Name = "bt_FAJouterPersonne_Ajouter";
+            this.bt_FAJouterPersonne_Ajouter.Size = new System.Drawing.Size(75, 23);
+            this.bt_FAJouterPersonne_Ajouter.TabIndex = 8;
+            this.bt_FAJouterPersonne_Ajouter.Text = "Ajouter";
+            this.bt_FAJouterPersonne_Ajouter.UseVisualStyleBackColor = true;
+            this.bt_FAJouterPersonne_Ajouter.Click += new System.EventHandler(this.bt_FAJouterPersonne_Ajouter_Click);
             // 
             // FrmAjouterPersonne
             // 
@@ -121,11 +123,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(489, 340);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.bt_FAJouterPersonne_Ajouter);
+            this.Controls.Add(this.bt_FAJouterPersonne_Fermer);
+            this.Controls.Add(this.tb_FAJouterPersonne_Ville);
+            this.Controls.Add(this.tb_FAJouterPersonne_Prenom);
+            this.Controls.Add(this.tb_FAJouterPersonne_Nom);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -143,10 +145,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox tb_FAJouterPersonne_Nom;
+        private System.Windows.Forms.TextBox tb_FAJouterPersonne_Prenom;
+        private System.Windows.Forms.TextBox tb_FAJouterPersonne_Ville;
+        private System.Windows.Forms.Button bt_FAJouterPersonne_Fermer;
+        private System.Windows.Forms.Button bt_FAJouterPersonne_Ajouter;
     }
 }

@@ -10,23 +10,21 @@ using System.Windows.Forms;
 
 namespace Parc_Auto.Forms
 {
-    public partial class FrmAjouterPersonne : Form
+    public partial class FAjouterVoiture : Form
     {
-        public FrmAjouterPersonne()
+        public FAjouterVoiture()
         {
             InitializeComponent();
         }
 
-        private void bt_FAJouterPersonne_Fermer_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void bt_FAJouterPersonne_Ajouter_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }
-
-        
     }
 }

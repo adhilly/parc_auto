@@ -127,6 +127,21 @@ namespace Parc_Auto
             }
         }
 
+        private void ajouterUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
 
 
