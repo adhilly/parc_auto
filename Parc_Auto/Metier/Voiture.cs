@@ -106,6 +106,5 @@ namespace Metier
             this.nom = nom;
             this.puissance = puissance;
         }
-
     }
 }
