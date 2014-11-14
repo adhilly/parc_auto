@@ -134,7 +134,10 @@ namespace Parc_Auto
 
         private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Forms.FrmAjouterPersonne personne = new Forms.FrmAjouterPersonne();
+            personne.Show();
+            frmAccueil accueil = new frmAccueil();
+            accueil.Hide();
         }
 
     }
