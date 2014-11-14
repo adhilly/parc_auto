@@ -32,3 +32,5 @@ H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\bin\Debug\Metier.dll
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\bin\Debug\Metier.pdb
 >>>>>>> 838b73f42086af5cb2cdad6707f0ca652a36a235
 >>>>>>> f43a91e131604c848a4abcc5043ef40b206f317c
+H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FAjouterVoiture.resources
+H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FToutesPersonnes.resources

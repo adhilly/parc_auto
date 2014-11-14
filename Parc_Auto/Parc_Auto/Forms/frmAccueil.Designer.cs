@@ -120,14 +120,12 @@
             this.ajouterUneVoitureToolStripMenuItem.Name = "ajouterUneVoitureToolStripMenuItem";
             this.ajouterUneVoitureToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.ajouterUneVoitureToolStripMenuItem.Text = "Ajouter une voiture";
-            this.ajouterUneVoitureToolStripMenuItem.Click += new System.EventHandler(this.ajouterUneVoitureToolStripMenuItem_Click);
             // 
             // supprimerUneVoitureToolStripMenuItem
             // 
             this.supprimerUneVoitureToolStripMenuItem.Name = "supprimerUneVoitureToolStripMenuItem";
             this.supprimerUneVoitureToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.supprimerUneVoitureToolStripMenuItem.Text = "Supprimer une voiture";
-            this.supprimerUneVoitureToolStripMenuItem.Click += new System.EventHandler(this.supprimerUneVoitureToolStripMenuItem_Click);
             // 
             // personnesToolStripMenuItem
             // 
