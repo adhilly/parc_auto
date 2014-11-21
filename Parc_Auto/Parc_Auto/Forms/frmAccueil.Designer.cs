@@ -174,6 +174,7 @@
             this.supprimerUnePersonneToolStripMenuItem.Name = "supprimerUnePersonneToolStripMenuItem";
             this.supprimerUnePersonneToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.supprimerUnePersonneToolStripMenuItem.Text = "Supprimer une personne";
+            this.supprimerUnePersonneToolStripMenuItem.Click += new System.EventHandler(this.supprimerUnePersonneToolStripMenuItem_Click);
             // 
             // locationsToolStripMenuItem
             // 
