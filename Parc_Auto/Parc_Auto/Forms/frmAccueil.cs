@@ -261,6 +261,13 @@ namespace Parc_Auto
             toutesPersonnes.ShowDialog();
         }
 
+        private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            unePersonne = new Personne();
+            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
+            ajouterPersonne.ShowDialog();
+        }
+
 
 
 

@@ -168,12 +168,14 @@
             this.ajouterUnePersonnesToolStripMenuItem.Name = "ajouterUnePersonnesToolStripMenuItem";
             this.ajouterUnePersonnesToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.ajouterUnePersonnesToolStripMenuItem.Text = "Ajouter une personne";
+            this.ajouterUnePersonnesToolStripMenuItem.Click += new System.EventHandler(this.ajouterUnePersonnesToolStripMenuItem_Click);
             // 
             // supprimerUnePersonneToolStripMenuItem
             // 
             this.supprimerUnePersonneToolStripMenuItem.Name = "supprimerUnePersonneToolStripMenuItem";
             this.supprimerUnePersonneToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.supprimerUnePersonneToolStripMenuItem.Text = "Supprimer une personne";
+            this.supprimerUnePersonneToolStripMenuItem.Click += new System.EventHandler(this.supprimerUnePersonneToolStripMenuItem_Click);
             // 
             // locationsToolStripMenuItem
             // 
