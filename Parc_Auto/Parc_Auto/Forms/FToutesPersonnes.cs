@@ -7,14 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Metier;
 
 namespace Parc_Auto.Forms
 {
+
     public partial class FToutesPersonnes : Form
     {
+        private Personne unePersonne; 
         public FToutesPersonnes()
         {
             InitializeComponent();
+        }
+
+        public FToutesPersonnes(Personne personne)
+        {
+            unePersonne = personne;
         }
     }
 }

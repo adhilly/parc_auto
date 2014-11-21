@@ -1,9 +1,11 @@
-<<<<<<< HEAD
 D:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.csprojResolveAssemblyReference.cache
 D:\Cour\TP\SLAM4\Parc_Auto\Metier\bin\Debug\Metier.dll
 D:\Cour\TP\SLAM4\Parc_Auto\Metier\bin\Debug\Metier.pdb
 D:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.dll
 D:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.pdb
-=======
 M:\parc_auto\parc_auto\Metier\obj\Debug\Metier.csprojResolveAssemblyReference.cache
->>>>>>> fc66adc148d94f1950f614cbcc63a1460dd5c876
+E:\Cour\TP\SLAM4\Parc_Auto\Metier\bin\Debug\Metier.dll
+E:\Cour\TP\SLAM4\Parc_Auto\Metier\bin\Debug\Metier.pdb
+E:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.csprojResolveAssemblyReference.cache
+E:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.dll
+E:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.pdb

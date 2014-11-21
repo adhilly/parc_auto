@@ -9,7 +9,6 @@ D:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Properties.Resources.re
 D:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.csproj.GenerateResource.Cache
 D:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.exe
 D:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.pdb
-<<<<<<< HEAD
 M:\parc_auto\parc_auto\Parc_Auto\bin\Debug\Parc_Auto.exe.config
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.exe
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.pdb
@@ -18,7 +17,6 @@ M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.frmAccueil.resources
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FrmAjouterPersonne.resources
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Properties.Resources.resources
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.csproj.GenerateResource.Cache
-=======
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.exe
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.pdb
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.csprojResolveAssemblyReference.cache
@@ -26,7 +24,6 @@ H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.frmAccueil.reso
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FrmAjouterPersonne.resources
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Properties.Resources.resources
 H:\année2\SI7\Parc_auto\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.csproj.GenerateResource.Cache
->>>>>>> 838b73f42086af5cb2cdad6707f0ca652a36a235
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FLouerVoiture.resources
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FRendreVoiture.resources
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FSupprimerPersonne.resources
@@ -34,9 +31,7 @@ M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FAjouterVoiture.resou
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FSupprimerVoiture.resources
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FToutesPersonnes.resources
 M:\parc_auto\parc_auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FToutesVoitures.resources
-<<<<<<< HEAD
 E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\bin\Debug\Parc_Auto.exe.config
-E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.csprojResolveAssemblyReference.cache
 E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FLouerVoiture.resources
 E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FRendreVoiture.resources
 E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.Forms.FSupprimerPersonne.resources
@@ -54,10 +49,4 @@ E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\bin\Debug\Metier.dll
 E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\bin\Debug\Metier.pdb
 E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.exe
 E:\Cour\TP\SLAM4\Parc_Auto\Parc_Auto\obj\Debug\Parc_Auto.pdb
-=======
-<<<<<<< HEAD
 M:\havak\parc_auto\Parc_Auto\Parc_Auto\bin\Debug\Parc_Auto.exe.config
-=======
-H:\Deuxième année\SLAM4\parc_auto\Parc_Auto\Parc_Auto\bin\Debug\Parc_Auto.exe.config
->>>>>>> 5aa08f742162a33e9e38503d268d413f8f68237c
->>>>>>> 0d27c1addd3a04e6a8d4d48664e4d40d55b4d48b

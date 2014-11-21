@@ -216,6 +216,7 @@ namespace Parc_Auto
         #endregion
 
         private Voiture uneVoiture;
+        private Personne unePersonne;
 
         private void ajouterUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -244,6 +245,20 @@ namespace Parc_Auto
             uneVoiture = new Voiture();
             Forms.FRendreVoiture rendreUneVoiture = new Forms.FRendreVoiture(uneVoiture);
             rendreUneVoiture.ShowDialog();
+        }
+
+        private void toutesLesVoituresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uneVoiture = new Voiture();
+            Forms.FToutesVoitures toutesVoiture = new Forms.FToutesVoitures(uneVoiture);
+            toutesVoiture.ShowDialog();
+        }
+
+        private void toutesLesPersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            unePersonne = new Personne();
+            Forms.FToutesPersonnes toutesPersonnes = new Forms.FToutesPersonnes(unePersonne);
+            toutesPersonnes.ShowDialog();
         }
 
 
