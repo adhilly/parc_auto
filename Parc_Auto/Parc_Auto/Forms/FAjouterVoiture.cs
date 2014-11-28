@@ -38,6 +38,7 @@ namespace Parc_Auto.Forms
 
         private void button2_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             try
             {
                 
@@ -57,6 +58,16 @@ namespace Parc_Auto.Forms
             {
                 MessageBox.Show(err.Message);
             }
+=======
+            string categorie = tb_FAjouterVoiture_Categorie.Text;
+            string date = tb_FAjouterVoiture_DateMiseService.Text;
+            bool louee;
+            string immatriculation = tb_FAjouterVoiture_Immatriculation.Text;
+            string loueur = tb_FAjouterVoiture_Loueur.Text;
+            string nom = tb_FAjouterVoiture_Nom.Text;
+            int puissance = int.Parse(tb_FAjouterVoiture_Puissance.Text);
+            Voiture uneVoiture = new Voiture();
+>>>>>>> 4ce9ccf14bac43a64686edd42477a48b81fde3b9
         }
     }
 }
