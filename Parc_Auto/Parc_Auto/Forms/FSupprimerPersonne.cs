@@ -8,21 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Metier;
-
 namespace Parc_Auto.Forms
 {
-
-    public partial class FToutesPersonnes : Form
+    public partial class FSupprimerPersonne : Form
     {
-        private Personne unePersonne; 
-        public FToutesPersonnes()
+        private Personne personne;
+        public FSupprimerPersonne()
         {
             InitializeComponent();
-        }
-
-        public FToutesPersonnes(Personne personne)
-        {
-            unePersonne = personne;
         }
     }
 }

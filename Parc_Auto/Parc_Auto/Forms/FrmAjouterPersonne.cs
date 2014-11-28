@@ -13,36 +13,28 @@ namespace Parc_Auto.Forms
 {
     public partial class FrmAjouterPersonne : Form
     {
-        private Personne unePersonne;
-        private Agence agence;
-
-
+        private List<Personne> lesPersonnes;
         public FrmAjouterPersonne()
         {
             InitializeComponent();
-            unePersonne = new Personne();
-            agence = new Agence();
+            lesPersonnes = new List<Personne>();
         }
 
         private void bt_FAJouterPersonne_Fermer_Click(object sender, EventArgs e)
         {
-            
-            FAjouterVoiture voiture = new FAjouterVoiture();
-            voiture.Hide();
+            frmAccueil accueil = new frmAccueil();
+            accueil.UneAgence.setLesPersonnes(lesPersonnes);
         }
 
         private void bt_FAJouterPersonne_Ajouter_Click(object sender, EventArgs e)
         {
-            try { 
-            unePersonne.setNom(tb_FAJouterPersonne_Nom.Text);
-            unePersonne.setPrenom(tb_FAJouterPersonne_Prenom.Text);
-            unePersonne.setVille(tb_FAJouterPersonne_Ville.Text);
-            agence.getLesPersonnes().Add(unePersonne);
-                }
-            catch (Exception err)
-            {
-                throw err;
-            }
+            string nom = tb_FAJouterPersonne_Nom.Text;
+            string prenom = tb_FAJouterPersonne_Prenom.Text;
+            string ville = tb_FAJouterPersonne_Ville.Text;
+            Personne unePersonne = new Personne(nom,prenom,ville);
+            lesPersonnes.Add(unePersonne);
         }
+
+        
     }
 }

@@ -44,6 +44,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FLouerVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FLouerVoiture.Designer.cs">
+      <DependentUpon>FLouerVoiture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FRendreVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FRendreVoiture.Designer.cs">
+      <DependentUpon>FRendreVoiture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FSupprimerPersonne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FSupprimerPersonne.Designer.cs">
+      <DependentUpon>FSupprimerPersonne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FAjouterVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FAjouterVoiture.Designer.cs">
+      <DependentUpon>FAjouterVoiture.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmAccueil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,11 +80,11 @@
     <Compile Include="Forms\FrmAjouterPersonne.Designer.cs">
       <DependentUpon>FrmAjouterPersonne.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FAjouterVoiture.cs">
+    <Compile Include="Forms\FSupprimerVoiture.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FAjouterVoiture.Designer.cs">
-      <DependentUpon>FAjouterVoiture.cs</DependentUpon>
+    <Compile Include="Forms\FSupprimerVoiture.Designer.cs">
+      <DependentUpon>FSupprimerVoiture.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FToutesPersonnes.cs">
       <SubType>Form</SubType>
@@ -68,19 +92,40 @@
     <Compile Include="Forms\FToutesPersonnes.Designer.cs">
       <DependentUpon>FToutesPersonnes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FToutesVoitures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FToutesVoitures.Designer.cs">
+      <DependentUpon>FToutesVoitures.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FLouerVoiture.resx">
+      <DependentUpon>FLouerVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FRendreVoiture.resx">
+      <DependentUpon>FRendreVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FSupprimerPersonne.resx">
+      <DependentUpon>FSupprimerPersonne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FAjouterVoiture.resx">
+      <DependentUpon>FAjouterVoiture.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmAccueil.resx">
       <DependentUpon>frmAccueil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmAjouterPersonne.resx">
       <DependentUpon>FrmAjouterPersonne.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FAjouterVoiture.resx">
-      <DependentUpon>FAjouterVoiture.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FSupprimerVoiture.resx">
+      <DependentUpon>FSupprimerVoiture.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FToutesPersonnes.resx">
       <DependentUpon>FToutesPersonnes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FToutesVoitures.resx">
+      <DependentUpon>FToutesVoitures.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

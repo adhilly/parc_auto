@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    public class Agence
+   public class Agence
     {
         /// <summary>
         /// propriétés 

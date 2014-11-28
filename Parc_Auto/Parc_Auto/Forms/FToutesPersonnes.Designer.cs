@@ -28,27 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bt_FToutesPersonnes_Fermer = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cb_FToutesPersonnes_Nom = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.bt_FToutesPersonnes_Fermer = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.cb_FToutesPersonnes_TrierSur = new System.Windows.Forms.ComboBox();
+            this.dgv_FToutesPersonnes = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_FToutesPersonnes)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // bt_FToutesPersonnes_Fermer
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 63);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(608, 305);
-            this.dataGridView1.TabIndex = 0;
+            this.bt_FToutesPersonnes_Fermer.Location = new System.Drawing.Point(262, 429);
+            this.bt_FToutesPersonnes_Fermer.Name = "bt_FToutesPersonnes_Fermer";
+            this.bt_FToutesPersonnes_Fermer.Size = new System.Drawing.Size(75, 23);
+            this.bt_FToutesPersonnes_Fermer.TabIndex = 0;
+            this.bt_FToutesPersonnes_Fermer.Text = "Fermer";
+            this.bt_FToutesPersonnes_Fermer.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 44);
+            this.label1.Location = new System.Drawing.Point(12, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 13);
             this.label1.TabIndex = 1;
@@ -57,51 +58,50 @@
             // cb_FToutesPersonnes_Nom
             // 
             this.cb_FToutesPersonnes_Nom.FormattingEnabled = true;
-            this.cb_FToutesPersonnes_Nom.Location = new System.Drawing.Point(126, 36);
+            this.cb_FToutesPersonnes_Nom.Location = new System.Drawing.Point(126, 30);
             this.cb_FToutesPersonnes_Nom.Name = "cb_FToutesPersonnes_Nom";
-            this.cb_FToutesPersonnes_Nom.Size = new System.Drawing.Size(138, 21);
+            this.cb_FToutesPersonnes_Nom.Size = new System.Drawing.Size(121, 21);
             this.cb_FToutesPersonnes_Nom.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(336, 44);
+            this.label2.Location = new System.Drawing.Point(343, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Trier sur :";
             // 
-            // comboBox1
+            // cb_FToutesPersonnes_TrierSur
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(393, 36);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(132, 21);
-            this.comboBox1.TabIndex = 4;
+            this.cb_FToutesPersonnes_TrierSur.FormattingEnabled = true;
+            this.cb_FToutesPersonnes_TrierSur.Location = new System.Drawing.Point(400, 30);
+            this.cb_FToutesPersonnes_TrierSur.Name = "cb_FToutesPersonnes_TrierSur";
+            this.cb_FToutesPersonnes_TrierSur.Size = new System.Drawing.Size(121, 21);
+            this.cb_FToutesPersonnes_TrierSur.TabIndex = 4;
             // 
-            // bt_FToutesPersonnes_Fermer
+            // dgv_FToutesPersonnes
             // 
-            this.bt_FToutesPersonnes_Fermer.Location = new System.Drawing.Point(273, 397);
-            this.bt_FToutesPersonnes_Fermer.Name = "bt_FToutesPersonnes_Fermer";
-            this.bt_FToutesPersonnes_Fermer.Size = new System.Drawing.Size(75, 23);
-            this.bt_FToutesPersonnes_Fermer.TabIndex = 5;
-            this.bt_FToutesPersonnes_Fermer.Text = "Fermer";
-            this.bt_FToutesPersonnes_Fermer.UseVisualStyleBackColor = true;
+            this.dgv_FToutesPersonnes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_FToutesPersonnes.Location = new System.Drawing.Point(12, 57);
+            this.dgv_FToutesPersonnes.Name = "dgv_FToutesPersonnes";
+            this.dgv_FToutesPersonnes.Size = new System.Drawing.Size(581, 359);
+            this.dgv_FToutesPersonnes.TabIndex = 5;
             // 
             // FToutesPersonnes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 432);
-            this.Controls.Add(this.bt_FToutesPersonnes_Fermer);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(605, 464);
+            this.Controls.Add(this.dgv_FToutesPersonnes);
+            this.Controls.Add(this.cb_FToutesPersonnes_TrierSur);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cb_FToutesPersonnes_Nom);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.bt_FToutesPersonnes_Fermer);
             this.Name = "FToutesPersonnes";
             this.Text = "Toutes les Personnes";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_FToutesPersonnes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,11 +109,11 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button bt_FToutesPersonnes_Fermer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cb_FToutesPersonnes_Nom;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button bt_FToutesPersonnes_Fermer;
+        private System.Windows.Forms.ComboBox cb_FToutesPersonnes_TrierSur;
+        private System.Windows.Forms.DataGridView dgv_FToutesPersonnes;
     }
 }

@@ -9,20 +9,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Metier;
 
+
 namespace Parc_Auto.Forms
 {
-
-    public partial class FToutesPersonnes : Form
+    public partial class FRendreVoiture : Form
     {
-        private Personne unePersonne; 
-        public FToutesPersonnes()
+        private Voiture uneVoiture;
+        public FRendreVoiture()
         {
             InitializeComponent();
         }
 
-        public FToutesPersonnes(Personne personne)
+        public FRendreVoiture(Voiture voiture)
         {
-            unePersonne = personne;
+            uneVoiture = voiture;
+            InitializeComponent();
         }
     }
 }

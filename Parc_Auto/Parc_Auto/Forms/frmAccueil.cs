@@ -10,21 +10,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Metier;
+using System.Xml.Serialization;
 
 namespace Parc_Auto
 {
     public partial class frmAccueil : Form
     {
         private Agence uneAgence;
+
+        public Agence UneAgence
+        {
+            get { return uneAgence; }
+            set { uneAgence = value; }
+        }
+
         public frmAccueil()
         {
             InitializeComponent();
-        }
-
-        public frmAccueil(Agence uneAgence)
-        {
-            InitializeComponent();
-            this.uneAgence = uneAgence;
+            uneAgence = new Agence();
+            
         }
 
         #region Sérialisation / Désérialisation Binaire
@@ -35,7 +39,6 @@ namespace Parc_Auto
         /// <param name="e">e</param>
         private void importerBinaireToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
             //On affiche une fenêtre permettant de choisir un fichier à charger
             OpenFileDialog FileDialogBin = new OpenFileDialog();
             FileDialogBin.Title = "Choisissez un fichier";
@@ -128,18 +131,169 @@ namespace Parc_Auto
                 {
                     unFlux.Close();
                 }
+
         #endregion
             }
         }
 
+        #region Sérialisation / Désérialisation XML
+        /// <summary>
+        /// Méthode de désérialisation XML
+        /// </summary>
+        /// <param name="sender">sender</param>
+        /// <param name="e">e</param>
+        private void importerXMLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog fileDialogXML = new OpenFileDialog();
+            fileDialogXML.Title = "Choisissez un fichier";
+            fileDialogXML.Filter = "Fichiers XML (*.xml) | *.xml";
+            DialogResult result = fileDialogXML.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                string cheminComplet = "";
+                string nomFichier = "";
+                string chemin = "";
+                cheminComplet = fileDialogXML.FileName;
+                cheminComplet = cheminComplet.Replace("\\", "\\\\");
+                nomFichier = cheminComplet.Substring(cheminComplet.LastIndexOf("\\\\") + 2, cheminComplet.Length - cheminComplet.LastIndexOf("\\\\") - 2);
+                chemin = cheminComplet.Substring(0, cheminComplet.Length - (nomFichier.Length + 2));
+                FileStream stream = null;
+                XmlSerializer serializer;
+                Directory.SetCurrentDirectory(chemin);
+                if (File.Exists(nomFichier))
+                {
+                    try
+                    {
+                        stream = new FileStream(nomFichier, FileMode.Open, FileAccess.Read);
+                        serializer = new XmlSerializer(typeof(Agence));
+                        uneAgence = (Agence)serializer.Deserialize(stream);
+                        stream.Close();
+                        MessageBox.Show("La désérialisation s'est terminée avec succès !", "Désérialisation finie", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("\n" + ex.Message, "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    finally
+                    {
+                        stream.Close();
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Méthode de désérialisation XML
+        /// </summary>
+        /// <param name="sender">sender</param>
+        /// <param name="e">e</param>
+        private void exporterXMLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog fileDialogXML = new SaveFileDialog();
+            fileDialogXML.Title = "Saisissez un fichier";
+            fileDialogXML.Filter = "Fichiers XML (*.xml) | *.xml";
+            DialogResult result = fileDialogXML.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                string cheminComplet = "";
+                string nomFichier = "";
+                string chemin = "";
+                cheminComplet = fileDialogXML.FileName;
+                cheminComplet = cheminComplet.Replace("\\", "\\\\");
+                nomFichier = cheminComplet.Substring(cheminComplet.LastIndexOf("\\\\") + 2, cheminComplet.Length - cheminComplet.LastIndexOf("\\\\") - 2);
+                chemin = cheminComplet.Substring(0, cheminComplet.Length - (nomFichier.Length + 2));
+                FileStream stream = null;
+                XmlSerializer serializer;
+                try
+                {
+                    Directory.SetCurrentDirectory(chemin);
+                    stream = new FileStream(nomFichier, FileMode.Create);
+                    serializer = new XmlSerializer(typeof(Agence));
+                    serializer.Serialize(stream, uneAgence);
+                    MessageBox.Show("La sérialisation s'est terminée avec succès !", "Sérialisation finie", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("\n" + ex.Message, "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    stream.Close();
+                }
+            }
+        }
+        #endregion
+
+        private Voiture uneVoiture;
+        private Personne unePersonne;
+
+        private void ajouterUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FAjouterVoiture unFajouterVoiture = new Forms.FAjouterVoiture();
+            unFajouterVoiture.ShowDialog();
+            this.Hide();
+        }
+
+
+        private void ajouterUneLocationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uneVoiture = new Voiture();
+            Forms.FLouerVoiture unLouerVoiture = new Forms.FLouerVoiture(uneVoiture);
+            unLouerVoiture.ShowDialog();
+        }
+
+        private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uneVoiture = new Voiture();
+            Forms.FSupprimerVoiture unSupprimerVoiture = new Forms.FSupprimerVoiture(uneVoiture);
+            unSupprimerVoiture.ShowDialog();
+        }
+
+        private void supprimerUneLocationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uneVoiture = new Voiture();
+            Forms.FRendreVoiture rendreUneVoiture = new Forms.FRendreVoiture(uneVoiture);
+            rendreUneVoiture.ShowDialog();
+        }
+
+        private void toutesLesVoituresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uneVoiture = new Voiture();
+            Forms.FToutesVoitures toutesVoiture = new Forms.FToutesVoitures(uneVoiture);
+            toutesVoiture.ShowDialog();
+        }
+
+        private void toutesLesPersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            unePersonne = new Personne();
+            Forms.FToutesPersonnes toutesPersonnes = new Forms.FToutesPersonnes(unePersonne);
+            toutesPersonnes.ShowDialog();
+        }
+
+        private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne();
+            unSupprimerPersonne.ShowDialog();
+        }
         private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Forms.FrmAjouterPersonne personne = new Forms.FrmAjouterPersonne();
-            personne.Show();
-            frmAccueil accueil = new frmAccueil();
-            accueil.Hide();
+            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne();
+            ajouterPersonne.ShowDialog();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
-        

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    public class Personne
+     public class Personne
     {
         /// <summary>
         /// propriétés
@@ -43,5 +43,14 @@ namespace Metier
         {
             this.ville = ville;
         }
+
+        public Personne() { }
+
+        public Personne(string nom, string prenom, string ville) {
+            this.nom = nom;
+            this.prenom = prenom;
+            this.ville = ville;
+        }
+
     }
 }

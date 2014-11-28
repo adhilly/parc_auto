@@ -11,18 +11,17 @@ using Metier;
 
 namespace Parc_Auto.Forms
 {
-
-    public partial class FToutesPersonnes : Form
+    public partial class FSupprimerVoiture : Form
     {
-        private Personne unePersonne; 
-        public FToutesPersonnes()
+        private Voiture uneVoiture;
+        public FSupprimerVoiture()
         {
             InitializeComponent();
         }
-
-        public FToutesPersonnes(Personne personne)
+        public FSupprimerVoiture(Voiture voiture)
         {
-            unePersonne = personne;
+            uneVoiture = voiture;
+            InitializeComponent();
         }
     }
 }

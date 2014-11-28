@@ -77,22 +77,22 @@
             // rb_FAjouterVoiture_Oui
             // 
             this.rb_FAjouterVoiture_Oui.AutoSize = true;
-            this.rb_FAjouterVoiture_Oui.Checked = true;
             this.rb_FAjouterVoiture_Oui.Location = new System.Drawing.Point(145, 87);
             this.rb_FAjouterVoiture_Oui.Name = "rb_FAjouterVoiture_Oui";
             this.rb_FAjouterVoiture_Oui.Size = new System.Drawing.Size(41, 17);
             this.rb_FAjouterVoiture_Oui.TabIndex = 3;
-            this.rb_FAjouterVoiture_Oui.TabStop = true;
             this.rb_FAjouterVoiture_Oui.Text = "Oui";
             this.rb_FAjouterVoiture_Oui.UseVisualStyleBackColor = true;
             // 
             // rb_FAjouterVoiture_Non
             // 
             this.rb_FAjouterVoiture_Non.AutoSize = true;
+            this.rb_FAjouterVoiture_Non.Checked = true;
             this.rb_FAjouterVoiture_Non.Location = new System.Drawing.Point(200, 85);
             this.rb_FAjouterVoiture_Non.Name = "rb_FAjouterVoiture_Non";
             this.rb_FAjouterVoiture_Non.Size = new System.Drawing.Size(45, 17);
             this.rb_FAjouterVoiture_Non.TabIndex = 4;
+            this.rb_FAjouterVoiture_Non.TabStop = true;
             this.rb_FAjouterVoiture_Non.Text = "Non";
             this.rb_FAjouterVoiture_Non.UseVisualStyleBackColor = true;
             // 
@@ -194,7 +194,7 @@
             this.bt_FAjouterVoiture_Ajouter.UseVisualStyleBackColor = true;
             this.bt_FAjouterVoiture_Ajouter.Click += new System.EventHandler(this.button2_Click);
             // 
-            // FAouterVoiture
+            // FAjouterVoiture
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -216,7 +216,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "FAouterVoiture";
+            this.Name = "FAjouterVoiture";
             this.Text = "Ajouter une Voiture";
             this.ResumeLayout(false);
             this.PerformLayout();
