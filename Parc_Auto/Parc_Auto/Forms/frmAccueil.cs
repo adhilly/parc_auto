@@ -17,9 +17,18 @@ namespace Parc_Auto
     public partial class frmAccueil : Form
     {
         private Agence uneAgence;
+
+        public Agence UneAgence
+        {
+            get { return uneAgence; }
+            set { uneAgence = value; }
+        }
+
         public frmAccueil()
         {
             InitializeComponent();
+            uneAgence = new Agence();
+            
         }
 
         #region Sérialisation / Désérialisation Binaire
@@ -220,8 +229,7 @@ namespace Parc_Auto
 
         private void ajouterUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            uneVoiture = new Voiture();
-            Forms.FAjouterVoiture unFajouterVoiture = new Forms.FAjouterVoiture(uneVoiture);
+            Forms.FAjouterVoiture unFajouterVoiture = new Forms.FAjouterVoiture();
             unFajouterVoiture.ShowDialog();
         }
 
@@ -263,21 +271,31 @@ namespace Parc_Auto
 
         private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
+            
         }
 
-        //private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
-        //{
-        //    unePersonne = new Personne();
-        //    Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne(unePersonne);
-        //    unSupprimerPersonne.ShowDialog();
-        //}
+        private void aProposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FAPropos apropos = new Forms.FAPropos();
+            apropos.ShowDialog();
+        }
         //private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
         //{
+        //    Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne();
         //    unePersonne = new Personne();
         //    Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
         //    ajouterPersonne.ShowDialog();
         //}
+
+        //private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne();
+        //    unePersonne = new Personne();
+        //    Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne(unePersonne);
+        //    unSupprimerPersonne.ShowDialog();
+        //}
+        
 
 
 

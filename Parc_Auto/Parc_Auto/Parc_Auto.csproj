@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FAPropos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FAPropos.Designer.cs">
+      <DependentUpon>FAPropos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FLouerVoiture.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FAPropos.resx">
+      <DependentUpon>FAPropos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FLouerVoiture.resx">
       <DependentUpon>FLouerVoiture.cs</DependentUpon>
     </EmbeddedResource>

@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Metier;
 namespace Parc_Auto.Forms
 {
     public partial class FSupprimerPersonne : Form
     {
+        private Personne personne;
         public FSupprimerPersonne()
         {
             InitializeComponent();
