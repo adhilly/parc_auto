@@ -17,6 +17,7 @@ namespace Parc_Auto.Forms
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         public FSupprimerPersonne(Agence uneAgence)
         {
             InitializeComponent();
@@ -25,10 +26,17 @@ namespace Parc_Auto.Forms
             {
                 cb_FSupprimerPersonne_nom.Items.Add(item.getNom());
             }
+=======
+
+        private void bt_FSupprimerPersonne_fermer_Click(object sender, EventArgs e)
+        {
+            this.Close();
+>>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5
         }
 
         private void bt_FSupprimerPersonne_supprimer_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             try
             {
                 Personne personneAsupprimer = new Personne();
@@ -50,5 +58,9 @@ namespace Parc_Auto.Forms
             }
         }
 
+=======
+
+        }
+>>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5
     }
 }

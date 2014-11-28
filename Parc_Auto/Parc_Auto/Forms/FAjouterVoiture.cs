@@ -23,17 +23,7 @@ namespace Parc_Auto.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                frmAccueil accueil = new frmAccueil();
-                accueil.UneAgence.setParcVoitures(lesVoitures);
-                accueil.Show();
-                this.Hide();
-            }
-            catch(Exception err)
-            {
-                MessageBox.Show(err.Message);
-            }
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -62,6 +52,19 @@ namespace Parc_Auto.Forms
             {
                 MessageBox.Show(err.Message);
             }
+<<<<<<< HEAD
+=======
+        }
+
+        private void rb_FAjouterVoiture_Oui_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rb_FAjouterVoiture_Non_CheckedChanged(object sender, EventArgs e)
+        {
+
+>>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5
         }
     }
 }

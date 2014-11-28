@@ -29,7 +29,7 @@ namespace Parc_Auto.Forms
 
         private void bt_FToutesPersonnes_Fermer_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
     }
 }

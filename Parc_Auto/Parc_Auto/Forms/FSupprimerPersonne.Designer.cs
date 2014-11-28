@@ -38,17 +38,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(184, 47);
+            this.label1.Font = new System.Drawing.Font("Broadway", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(90, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(251, 26);
+            this.label1.Size = new System.Drawing.Size(449, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Supprimer une personne";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 111);
+            this.label2.Location = new System.Drawing.Point(215, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 1;
@@ -57,7 +57,7 @@
             // cb_FSupprimerPersonne_nom
             // 
             this.cb_FSupprimerPersonne_nom.FormattingEnabled = true;
-            this.cb_FSupprimerPersonne_nom.Location = new System.Drawing.Point(53, 103);
+            this.cb_FSupprimerPersonne_nom.Location = new System.Drawing.Point(256, 101);
             this.cb_FSupprimerPersonne_nom.Name = "cb_FSupprimerPersonne_nom";
             this.cb_FSupprimerPersonne_nom.Size = new System.Drawing.Size(121, 21);
             this.cb_FSupprimerPersonne_nom.TabIndex = 2;
@@ -80,12 +80,14 @@
             this.bt_FSupprimerPersonne_fermer.TabIndex = 4;
             this.bt_FSupprimerPersonne_fermer.Text = "Fermer";
             this.bt_FSupprimerPersonne_fermer.UseVisualStyleBackColor = true;
+            this.bt_FSupprimerPersonne_fermer.Click += new System.EventHandler(this.bt_FSupprimerPersonne_fermer_Click);
             // 
             // FSupprimerPersonne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(616, 260);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(616, 236);
             this.Controls.Add(this.bt_FSupprimerPersonne_fermer);
             this.Controls.Add(this.bt_FSupprimerPersonne_supprimer);
             this.Controls.Add(this.cb_FSupprimerPersonne_nom);

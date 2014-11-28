@@ -52,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 107);
+            this.label2.Location = new System.Drawing.Point(73, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(52, 147);
+            this.label3.Location = new System.Drawing.Point(73, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 2;
@@ -70,7 +70,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(52, 196);
+            this.label4.Location = new System.Drawing.Point(73, 191);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(32, 13);
             this.label4.TabIndex = 3;
@@ -78,21 +78,21 @@
             // 
             // tb_FAJouterPersonne_Nom
             // 
-            this.tb_FAJouterPersonne_Nom.Location = new System.Drawing.Point(132, 104);
+            this.tb_FAJouterPersonne_Nom.Location = new System.Drawing.Point(153, 99);
             this.tb_FAJouterPersonne_Nom.Name = "tb_FAJouterPersonne_Nom";
             this.tb_FAJouterPersonne_Nom.Size = new System.Drawing.Size(232, 20);
             this.tb_FAJouterPersonne_Nom.TabIndex = 4;
             // 
             // tb_FAJouterPersonne_Prenom
             // 
-            this.tb_FAJouterPersonne_Prenom.Location = new System.Drawing.Point(132, 144);
+            this.tb_FAJouterPersonne_Prenom.Location = new System.Drawing.Point(153, 139);
             this.tb_FAJouterPersonne_Prenom.Name = "tb_FAJouterPersonne_Prenom";
             this.tb_FAJouterPersonne_Prenom.Size = new System.Drawing.Size(232, 20);
             this.tb_FAJouterPersonne_Prenom.TabIndex = 5;
             // 
             // tb_FAJouterPersonne_Ville
             // 
-            this.tb_FAJouterPersonne_Ville.Location = new System.Drawing.Point(132, 193);
+            this.tb_FAJouterPersonne_Ville.Location = new System.Drawing.Point(153, 188);
             this.tb_FAJouterPersonne_Ville.Name = "tb_FAJouterPersonne_Ville";
             this.tb_FAJouterPersonne_Ville.Size = new System.Drawing.Size(232, 20);
             this.tb_FAJouterPersonne_Ville.TabIndex = 6;
@@ -109,7 +109,7 @@
             // 
             // bt_FAJouterPersonne_Ajouter
             // 
-            this.bt_FAJouterPersonne_Ajouter.Location = new System.Drawing.Point(248, 280);
+            this.bt_FAJouterPersonne_Ajouter.Location = new System.Drawing.Point(363, 280);
             this.bt_FAJouterPersonne_Ajouter.Name = "bt_FAJouterPersonne_Ajouter";
             this.bt_FAJouterPersonne_Ajouter.Size = new System.Drawing.Size(75, 23);
             this.bt_FAJouterPersonne_Ajouter.TabIndex = 8;

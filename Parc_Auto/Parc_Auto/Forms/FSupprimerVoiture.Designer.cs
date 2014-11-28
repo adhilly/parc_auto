@@ -38,17 +38,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(184, 56);
+            this.label1.Font = new System.Drawing.Font("Broadway", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(106, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 26);
+            this.label1.Size = new System.Drawing.Size(414, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Supprimer une voiture";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 112);
+            this.label2.Location = new System.Drawing.Point(185, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 13);
             this.label2.TabIndex = 1;
@@ -57,14 +57,14 @@
             // cb_FSupprimerVoiture_immatriculation
             // 
             this.cb_FSupprimerVoiture_immatriculation.FormattingEnabled = true;
-            this.cb_FSupprimerVoiture_immatriculation.Location = new System.Drawing.Point(101, 104);
+            this.cb_FSupprimerVoiture_immatriculation.Location = new System.Drawing.Point(274, 119);
             this.cb_FSupprimerVoiture_immatriculation.Name = "cb_FSupprimerVoiture_immatriculation";
             this.cb_FSupprimerVoiture_immatriculation.Size = new System.Drawing.Size(121, 21);
             this.cb_FSupprimerVoiture_immatriculation.TabIndex = 2;
             // 
             // bt_FSupprimerVoiture_supprimer
             // 
-            this.bt_FSupprimerVoiture_supprimer.Location = new System.Drawing.Point(64, 215);
+            this.bt_FSupprimerVoiture_supprimer.Location = new System.Drawing.Point(79, 215);
             this.bt_FSupprimerVoiture_supprimer.Name = "bt_FSupprimerVoiture_supprimer";
             this.bt_FSupprimerVoiture_supprimer.Size = new System.Drawing.Size(103, 23);
             this.bt_FSupprimerVoiture_supprimer.TabIndex = 3;
@@ -74,7 +74,7 @@
             // 
             // bt_FSupprimerVoiture_fermer
             // 
-            this.bt_FSupprimerVoiture_fermer.Location = new System.Drawing.Point(399, 215);
+            this.bt_FSupprimerVoiture_fermer.Location = new System.Drawing.Point(445, 215);
             this.bt_FSupprimerVoiture_fermer.Name = "bt_FSupprimerVoiture_fermer";
             this.bt_FSupprimerVoiture_fermer.Size = new System.Drawing.Size(75, 23);
             this.bt_FSupprimerVoiture_fermer.TabIndex = 4;
@@ -86,12 +86,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(598, 272);
             this.Controls.Add(this.bt_FSupprimerVoiture_fermer);
             this.Controls.Add(this.bt_FSupprimerVoiture_supprimer);
             this.Controls.Add(this.cb_FSupprimerVoiture_immatriculation);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FSupprimerVoiture";
             this.Text = "Supprimer une Voiture";
             this.ResumeLayout(false);

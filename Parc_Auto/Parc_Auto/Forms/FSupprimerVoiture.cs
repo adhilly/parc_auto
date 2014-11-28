@@ -58,5 +58,15 @@ namespace Parc_Auto.Forms
                 MessageBox.Show(err.Message);
             }
         }
+
+        private void bt_FSupprimerVoiture_supprimer_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void bt_FSupprimerVoiture_fermer_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

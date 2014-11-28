@@ -34,13 +34,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cb_FToutesVoitures_TrierSur = new System.Windows.Forms.ComboBox();
             this.bt_FToutesVoitures_Fermer = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_FToutesVoitures)).BeginInit();
             this.SuspendLayout();
             // 
             // dgv_FToutesVoitures
             // 
             this.dgv_FToutesVoitures.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_FToutesVoitures.Location = new System.Drawing.Point(15, 63);
+            this.dgv_FToutesVoitures.Location = new System.Drawing.Point(12, 149);
             this.dgv_FToutesVoitures.Name = "dgv_FToutesVoitures";
             this.dgv_FToutesVoitures.Size = new System.Drawing.Size(608, 305);
             this.dgv_FToutesVoitures.TabIndex = 0;
@@ -48,7 +49,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 44);
+            this.label1.Location = new System.Drawing.Point(59, 96);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 13);
             this.label1.TabIndex = 1;
@@ -57,7 +58,7 @@
             // cb_FToutesVoitures_Nom
             // 
             this.cb_FToutesVoitures_Nom.FormattingEnabled = true;
-            this.cb_FToutesVoitures_Nom.Location = new System.Drawing.Point(126, 36);
+            this.cb_FToutesVoitures_Nom.Location = new System.Drawing.Point(173, 88);
             this.cb_FToutesVoitures_Nom.Name = "cb_FToutesVoitures_Nom";
             this.cb_FToutesVoitures_Nom.Size = new System.Drawing.Size(138, 21);
             this.cb_FToutesVoitures_Nom.TabIndex = 2;
@@ -65,7 +66,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(336, 44);
+            this.label2.Location = new System.Drawing.Point(383, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 3;
@@ -74,14 +75,14 @@
             // cb_FToutesVoitures_TrierSur
             // 
             this.cb_FToutesVoitures_TrierSur.FormattingEnabled = true;
-            this.cb_FToutesVoitures_TrierSur.Location = new System.Drawing.Point(393, 36);
+            this.cb_FToutesVoitures_TrierSur.Location = new System.Drawing.Point(440, 88);
             this.cb_FToutesVoitures_TrierSur.Name = "cb_FToutesVoitures_TrierSur";
             this.cb_FToutesVoitures_TrierSur.Size = new System.Drawing.Size(132, 21);
             this.cb_FToutesVoitures_TrierSur.TabIndex = 4;
             // 
             // bt_FToutesVoitures_Fermer
             // 
-            this.bt_FToutesVoitures_Fermer.Location = new System.Drawing.Point(273, 397);
+            this.bt_FToutesVoitures_Fermer.Location = new System.Drawing.Point(283, 470);
             this.bt_FToutesVoitures_Fermer.Name = "bt_FToutesVoitures_Fermer";
             this.bt_FToutesVoitures_Fermer.Size = new System.Drawing.Size(75, 23);
             this.bt_FToutesVoitures_Fermer.TabIndex = 5;
@@ -89,11 +90,23 @@
             this.bt_FToutesVoitures_Fermer.UseVisualStyleBackColor = true;
             this.bt_FToutesVoitures_Fermer.Click += new System.EventHandler(this.bt_FToutesPersonnes_Fermer_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Broadway", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(167, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(330, 36);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Toutes les voitures";
+            // 
             // FToutesVoitures
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 432);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(635, 520);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.bt_FToutesVoitures_Fermer);
             this.Controls.Add(this.cb_FToutesVoitures_TrierSur);
             this.Controls.Add(this.label2);
@@ -116,5 +129,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cb_FToutesVoitures_TrierSur;
         private System.Windows.Forms.Button bt_FToutesVoitures_Fermer;
+        private System.Windows.Forms.Label label3;
     }
 }

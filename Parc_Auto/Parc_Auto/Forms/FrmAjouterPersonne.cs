@@ -22,6 +22,7 @@ namespace Parc_Auto.Forms
 
         private void bt_FAJouterPersonne_Fermer_Click(object sender, EventArgs e)
         {
+            this.Close();
             frmAccueil accueil = new frmAccueil();
             accueil.UneAgence.setLesPersonnes(lesPersonnes);
             accueil.Show();

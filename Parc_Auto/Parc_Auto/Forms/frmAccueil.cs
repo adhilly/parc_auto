@@ -23,6 +23,10 @@ namespace Parc_Auto
             get { return uneAgence; }
             set { uneAgence = value; }
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5
         public frmAccueil()
         {
             InitializeComponent();
@@ -230,7 +234,6 @@ namespace Parc_Auto
         {
             Forms.FAjouterVoiture unFajouterVoiture = new Forms.FAjouterVoiture();
             unFajouterVoiture.ShowDialog();
-            this.Hide();
         }
 
 
@@ -269,8 +272,9 @@ namespace Parc_Auto
             toutesPersonnes.ShowDialog();
         }
 
-        private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
+        private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Forms.FSupprimerPersonne supPersonne = new Forms.FSupprimerPersonne(uneAgence);
             supPersonne.Show();
         }
@@ -278,7 +282,33 @@ namespace Parc_Auto
         {
             Forms.FrmAjouterPersonne frmPersonne = new Forms.FrmAjouterPersonne();
             frmPersonne.Show();
+=======
+            Close();
+            
         }
+
+        private void aProposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FAPropos apropos = new Forms.FAPropos();
+            apropos.ShowDialog();
+        }
+        private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne();
+            unePersonne = new Personne();
+            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
+            ajouterPersonne.ShowDialog();
+>>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5
+        }
+
+        private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne();
+            unePersonne = new Personne();
+            Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne(unePersonne);
+            unSupprimerPersonne.ShowDialog();
+        }
+        
 
 
 

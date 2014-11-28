@@ -45,12 +45,13 @@
             this.tb_FAjouterVoiture_Puissance = new System.Windows.Forms.TextBox();
             this.bt_FAjouterVoiture_Fermer = new System.Windows.Forms.Button();
             this.bt_FAjouterVoiture_Ajouter = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Location = new System.Drawing.Point(119, 95);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 0;
@@ -59,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 51);
+            this.label2.Location = new System.Drawing.Point(119, 128);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(127, 13);
             this.label2.TabIndex = 1;
@@ -68,7 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 89);
+            this.label3.Location = new System.Drawing.Point(119, 166);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 2;
@@ -77,29 +78,31 @@
             // rb_FAjouterVoiture_Oui
             // 
             this.rb_FAjouterVoiture_Oui.AutoSize = true;
-            this.rb_FAjouterVoiture_Oui.Location = new System.Drawing.Point(145, 87);
+            this.rb_FAjouterVoiture_Oui.Location = new System.Drawing.Point(252, 164);
             this.rb_FAjouterVoiture_Oui.Name = "rb_FAjouterVoiture_Oui";
             this.rb_FAjouterVoiture_Oui.Size = new System.Drawing.Size(41, 17);
             this.rb_FAjouterVoiture_Oui.TabIndex = 3;
             this.rb_FAjouterVoiture_Oui.Text = "Oui";
             this.rb_FAjouterVoiture_Oui.UseVisualStyleBackColor = true;
+            this.rb_FAjouterVoiture_Oui.CheckedChanged += new System.EventHandler(this.rb_FAjouterVoiture_Oui_CheckedChanged);
             // 
             // rb_FAjouterVoiture_Non
             // 
             this.rb_FAjouterVoiture_Non.AutoSize = true;
             this.rb_FAjouterVoiture_Non.Checked = true;
-            this.rb_FAjouterVoiture_Non.Location = new System.Drawing.Point(200, 85);
+            this.rb_FAjouterVoiture_Non.Location = new System.Drawing.Point(307, 162);
             this.rb_FAjouterVoiture_Non.Name = "rb_FAjouterVoiture_Non";
             this.rb_FAjouterVoiture_Non.Size = new System.Drawing.Size(45, 17);
             this.rb_FAjouterVoiture_Non.TabIndex = 4;
             this.rb_FAjouterVoiture_Non.TabStop = true;
             this.rb_FAjouterVoiture_Non.Text = "Non";
             this.rb_FAjouterVoiture_Non.UseVisualStyleBackColor = true;
+            this.rb_FAjouterVoiture_Non.CheckedChanged += new System.EventHandler(this.rb_FAjouterVoiture_Non_CheckedChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 123);
+            this.label4.Location = new System.Drawing.Point(119, 200);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(83, 13);
             this.label4.TabIndex = 5;
@@ -108,7 +111,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 158);
+            this.label5.Location = new System.Drawing.Point(119, 235);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 13);
             this.label5.TabIndex = 6;
@@ -117,7 +120,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 194);
+            this.label6.Location = new System.Drawing.Point(119, 271);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 7;
@@ -126,7 +129,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 230);
+            this.label7.Location = new System.Drawing.Point(119, 307);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(62, 13);
             this.label7.TabIndex = 8;
@@ -134,49 +137,49 @@
             // 
             // tb_FAjouterVoiture_DateMiseService
             // 
-            this.tb_FAjouterVoiture_DateMiseService.Location = new System.Drawing.Point(145, 44);
+            this.tb_FAjouterVoiture_DateMiseService.Location = new System.Drawing.Point(252, 121);
             this.tb_FAjouterVoiture_DateMiseService.Name = "tb_FAjouterVoiture_DateMiseService";
             this.tb_FAjouterVoiture_DateMiseService.Size = new System.Drawing.Size(100, 20);
             this.tb_FAjouterVoiture_DateMiseService.TabIndex = 9;
             // 
             // tb_FAjouterVoiture_Categorie
             // 
-            this.tb_FAjouterVoiture_Categorie.Location = new System.Drawing.Point(145, 12);
+            this.tb_FAjouterVoiture_Categorie.Location = new System.Drawing.Point(252, 89);
             this.tb_FAjouterVoiture_Categorie.Name = "tb_FAjouterVoiture_Categorie";
             this.tb_FAjouterVoiture_Categorie.Size = new System.Drawing.Size(100, 20);
             this.tb_FAjouterVoiture_Categorie.TabIndex = 10;
             // 
             // tb_FAjouterVoiture_Immatriculation
             // 
-            this.tb_FAjouterVoiture_Immatriculation.Location = new System.Drawing.Point(145, 116);
+            this.tb_FAjouterVoiture_Immatriculation.Location = new System.Drawing.Point(252, 193);
             this.tb_FAjouterVoiture_Immatriculation.Name = "tb_FAjouterVoiture_Immatriculation";
             this.tb_FAjouterVoiture_Immatriculation.Size = new System.Drawing.Size(100, 20);
             this.tb_FAjouterVoiture_Immatriculation.TabIndex = 11;
             // 
             // tb_FAjouterVoiture_Loueur
             // 
-            this.tb_FAjouterVoiture_Loueur.Location = new System.Drawing.Point(145, 151);
+            this.tb_FAjouterVoiture_Loueur.Location = new System.Drawing.Point(252, 228);
             this.tb_FAjouterVoiture_Loueur.Name = "tb_FAjouterVoiture_Loueur";
             this.tb_FAjouterVoiture_Loueur.Size = new System.Drawing.Size(100, 20);
             this.tb_FAjouterVoiture_Loueur.TabIndex = 12;
             // 
             // tb_FAjouterVoiture_Nom
             // 
-            this.tb_FAjouterVoiture_Nom.Location = new System.Drawing.Point(145, 187);
+            this.tb_FAjouterVoiture_Nom.Location = new System.Drawing.Point(252, 264);
             this.tb_FAjouterVoiture_Nom.Name = "tb_FAjouterVoiture_Nom";
             this.tb_FAjouterVoiture_Nom.Size = new System.Drawing.Size(100, 20);
             this.tb_FAjouterVoiture_Nom.TabIndex = 13;
             // 
             // tb_FAjouterVoiture_Puissance
             // 
-            this.tb_FAjouterVoiture_Puissance.Location = new System.Drawing.Point(145, 227);
+            this.tb_FAjouterVoiture_Puissance.Location = new System.Drawing.Point(252, 304);
             this.tb_FAjouterVoiture_Puissance.Name = "tb_FAjouterVoiture_Puissance";
             this.tb_FAjouterVoiture_Puissance.Size = new System.Drawing.Size(100, 20);
             this.tb_FAjouterVoiture_Puissance.TabIndex = 14;
             // 
             // bt_FAjouterVoiture_Fermer
             // 
-            this.bt_FAjouterVoiture_Fermer.Location = new System.Drawing.Point(44, 279);
+            this.bt_FAjouterVoiture_Fermer.Location = new System.Drawing.Point(79, 374);
             this.bt_FAjouterVoiture_Fermer.Name = "bt_FAjouterVoiture_Fermer";
             this.bt_FAjouterVoiture_Fermer.Size = new System.Drawing.Size(75, 23);
             this.bt_FAjouterVoiture_Fermer.TabIndex = 15;
@@ -186,7 +189,7 @@
             // 
             // bt_FAjouterVoiture_Ajouter
             // 
-            this.bt_FAjouterVoiture_Ajouter.Location = new System.Drawing.Point(244, 279);
+            this.bt_FAjouterVoiture_Ajouter.Location = new System.Drawing.Point(360, 374);
             this.bt_FAjouterVoiture_Ajouter.Name = "bt_FAjouterVoiture_Ajouter";
             this.bt_FAjouterVoiture_Ajouter.Size = new System.Drawing.Size(75, 23);
             this.bt_FAjouterVoiture_Ajouter.TabIndex = 16;
@@ -194,11 +197,23 @@
             this.bt_FAjouterVoiture_Ajouter.UseVisualStyleBackColor = true;
             this.bt_FAjouterVoiture_Ajouter.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Broadway", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(46, 19);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(389, 36);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Ajouter une personne";
+            // 
             // FAjouterVoiture
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 338);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(486, 421);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.bt_FAjouterVoiture_Ajouter);
             this.Controls.Add(this.bt_FAjouterVoiture_Fermer);
             this.Controls.Add(this.tb_FAjouterVoiture_Puissance);
@@ -242,5 +257,6 @@
         private System.Windows.Forms.TextBox tb_FAjouterVoiture_Puissance;
         private System.Windows.Forms.Button bt_FAjouterVoiture_Fermer;
         private System.Windows.Forms.Button bt_FAjouterVoiture_Ajouter;
+        private System.Windows.Forms.Label label8;
     }
 }
