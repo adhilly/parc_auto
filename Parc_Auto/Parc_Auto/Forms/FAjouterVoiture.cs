@@ -28,7 +28,7 @@ namespace Parc_Auto.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -41,6 +41,16 @@ namespace Parc_Auto.Forms
             string nom = tb_FAjouterVoiture_Nom.Text;
             int puissance = int.Parse(tb_FAjouterVoiture_Puissance.Text);
             Voiture uneVoiture = new Voiture();
+        }
+
+        private void rb_FAjouterVoiture_Oui_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rb_FAjouterVoiture_Non_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

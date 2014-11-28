@@ -25,5 +25,15 @@ namespace Parc_Auto.Forms
             uneVoiture = voiture;
             InitializeComponent();
         }
+
+        private void bt_FRendreVoiture_fermer_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bt_FRendreVoiture_valider_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

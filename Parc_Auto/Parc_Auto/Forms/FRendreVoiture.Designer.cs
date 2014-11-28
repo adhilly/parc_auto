@@ -70,6 +70,7 @@
             this.bt_FRendreVoiture_fermer.TabIndex = 3;
             this.bt_FRendreVoiture_fermer.Text = "Fermer";
             this.bt_FRendreVoiture_fermer.UseVisualStyleBackColor = true;
+            this.bt_FRendreVoiture_fermer.Click += new System.EventHandler(this.bt_FRendreVoiture_fermer_Click);
             // 
             // bt_FRendreVoiture_valider
             // 
@@ -79,6 +80,7 @@
             this.bt_FRendreVoiture_valider.TabIndex = 4;
             this.bt_FRendreVoiture_valider.Text = "Valider";
             this.bt_FRendreVoiture_valider.UseVisualStyleBackColor = true;
+            this.bt_FRendreVoiture_valider.Click += new System.EventHandler(this.bt_FRendreVoiture_valider_Click);
             // 
             // FRendreVoiture
             // 

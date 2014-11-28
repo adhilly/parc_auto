@@ -83,6 +83,7 @@
             this.rb_FAjouterVoiture_Oui.TabIndex = 3;
             this.rb_FAjouterVoiture_Oui.Text = "Oui";
             this.rb_FAjouterVoiture_Oui.UseVisualStyleBackColor = true;
+            this.rb_FAjouterVoiture_Oui.CheckedChanged += new System.EventHandler(this.rb_FAjouterVoiture_Oui_CheckedChanged);
             // 
             // rb_FAjouterVoiture_Non
             // 
@@ -95,6 +96,7 @@
             this.rb_FAjouterVoiture_Non.TabStop = true;
             this.rb_FAjouterVoiture_Non.Text = "Non";
             this.rb_FAjouterVoiture_Non.UseVisualStyleBackColor = true;
+            this.rb_FAjouterVoiture_Non.CheckedChanged += new System.EventHandler(this.rb_FAjouterVoiture_Non_CheckedChanged);
             // 
             // label4
             // 

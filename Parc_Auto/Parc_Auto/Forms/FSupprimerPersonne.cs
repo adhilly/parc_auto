@@ -16,5 +16,15 @@ namespace Parc_Auto.Forms
         {
             InitializeComponent();
         }
+
+        private void bt_FSupprimerPersonne_fermer_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bt_FSupprimerPersonne_supprimer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

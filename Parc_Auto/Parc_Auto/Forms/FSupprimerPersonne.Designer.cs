@@ -70,6 +70,7 @@
             this.bt_FSupprimerPersonne_supprimer.TabIndex = 3;
             this.bt_FSupprimerPersonne_supprimer.Text = "Supprimer";
             this.bt_FSupprimerPersonne_supprimer.UseVisualStyleBackColor = true;
+            this.bt_FSupprimerPersonne_supprimer.Click += new System.EventHandler(this.bt_FSupprimerPersonne_supprimer_Click);
             // 
             // bt_FSupprimerPersonne_fermer
             // 
@@ -79,6 +80,7 @@
             this.bt_FSupprimerPersonne_fermer.TabIndex = 4;
             this.bt_FSupprimerPersonne_fermer.Text = "Fermer";
             this.bt_FSupprimerPersonne_fermer.UseVisualStyleBackColor = true;
+            this.bt_FSupprimerPersonne_fermer.Click += new System.EventHandler(this.bt_FSupprimerPersonne_fermer_Click);
             // 
             // FSupprimerPersonne
             // 

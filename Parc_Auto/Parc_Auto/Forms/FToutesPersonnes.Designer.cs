@@ -45,6 +45,7 @@
             this.bt_FToutesPersonnes_Fermer.TabIndex = 0;
             this.bt_FToutesPersonnes_Fermer.Text = "Fermer";
             this.bt_FToutesPersonnes_Fermer.UseVisualStyleBackColor = true;
+            this.bt_FToutesPersonnes_Fermer.Click += new System.EventHandler(this.bt_FToutesPersonnes_Fermer_Click);
             // 
             // label1
             // 

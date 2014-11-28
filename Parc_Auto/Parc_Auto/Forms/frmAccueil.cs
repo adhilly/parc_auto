@@ -261,18 +261,23 @@ namespace Parc_Auto
             toutesPersonnes.ShowDialog();
         }
 
-        private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
+        private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            unePersonne = new Personne();
-            Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne(unePersonne);
-            unSupprimerPersonne.ShowDialog();
+            this.Close();
         }
-        private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            unePersonne = new Personne();
-            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
-            ajouterPersonne.ShowDialog();
-        }
+
+        //private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    unePersonne = new Personne();
+        //    Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne(unePersonne);
+        //    unSupprimerPersonne.ShowDialog();
+        //}
+        //private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    unePersonne = new Personne();
+        //    Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
+        //    ajouterPersonne.ShowDialog();
+        //}
 
 
 

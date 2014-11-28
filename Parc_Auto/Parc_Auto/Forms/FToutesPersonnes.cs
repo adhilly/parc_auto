@@ -24,5 +24,10 @@ namespace Parc_Auto.Forms
         {
             unePersonne = personne;
         }
+
+        private void bt_FToutesPersonnes_Fermer_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

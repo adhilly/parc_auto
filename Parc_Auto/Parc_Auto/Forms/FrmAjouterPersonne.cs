@@ -19,7 +19,7 @@ namespace Parc_Auto.Forms
 
         private void bt_FAJouterPersonne_Fermer_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void bt_FAJouterPersonne_Ajouter_Click(object sender, EventArgs e)

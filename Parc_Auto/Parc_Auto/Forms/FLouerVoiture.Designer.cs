@@ -89,6 +89,7 @@
             this.bt_FLouerVoiture_fermer.TabIndex = 5;
             this.bt_FLouerVoiture_fermer.Text = "Fermer";
             this.bt_FLouerVoiture_fermer.UseVisualStyleBackColor = true;
+            this.bt_FLouerVoiture_fermer.Click += new System.EventHandler(this.bt_FLouerVoiture_fermer_Click);
             // 
             // bt_FLouerVoiture_valider
             // 
@@ -98,6 +99,7 @@
             this.bt_FLouerVoiture_valider.TabIndex = 6;
             this.bt_FLouerVoiture_valider.Text = "Valider";
             this.bt_FLouerVoiture_valider.UseVisualStyleBackColor = true;
+            this.bt_FLouerVoiture_valider.Click += new System.EventHandler(this.bt_FLouerVoiture_valider_Click);
             // 
             // FLouerVoiture
             // 
