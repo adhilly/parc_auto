@@ -38,10 +38,8 @@ namespace Parc_Auto.Forms
 
         private void button2_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             try
             {
-                
                 string categorie = tb_FAjouterVoiture_Categorie.Text;
                 string date = tb_FAjouterVoiture_DateMiseService.Text;
                 bool louee = false;
@@ -53,21 +51,17 @@ namespace Parc_Auto.Forms
                 int puissance = int.Parse(tb_FAjouterVoiture_Puissance.Text);
                 Voiture uneVoiture= new Voiture(categorie, date, louee, immatriculation, loueur, nom, puissance);
                 lesVoitures.Add(uneVoiture);
+                tb_FAjouterVoiture_Categorie.Clear();
+                tb_FAjouterVoiture_DateMiseService.Clear();
+                tb_FAjouterVoiture_Immatriculation.Clear();
+                tb_FAjouterVoiture_Loueur.Clear();
+                tb_FAjouterVoiture_Nom.Clear();
+                tb_FAjouterVoiture_Puissance.Clear();
             }
             catch (Exception err)
             {
                 MessageBox.Show(err.Message);
             }
-=======
-            string categorie = tb_FAjouterVoiture_Categorie.Text;
-            string date = tb_FAjouterVoiture_DateMiseService.Text;
-            bool louee;
-            string immatriculation = tb_FAjouterVoiture_Immatriculation.Text;
-            string loueur = tb_FAjouterVoiture_Loueur.Text;
-            string nom = tb_FAjouterVoiture_Nom.Text;
-            int puissance = int.Parse(tb_FAjouterVoiture_Puissance.Text);
-            Voiture uneVoiture = new Voiture();
->>>>>>> 4ce9ccf14bac43a64686edd42477a48b81fde3b9
         }
     }
 }

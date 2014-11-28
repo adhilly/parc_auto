@@ -17,16 +17,12 @@ namespace Parc_Auto
     public partial class frmAccueil : Form
     {
         private Agence uneAgence;
-<<<<<<< HEAD
 
         public Agence UneAgence
         {
             get { return uneAgence; }
             set { uneAgence = value; }
         }
-
-=======
->>>>>>> 4ce9ccf14bac43a64686edd42477a48b81fde3b9
         public frmAccueil()
         {
             InitializeComponent();
@@ -247,8 +243,8 @@ namespace Parc_Auto
 
         private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            uneVoiture = new Voiture();
-            Forms.FSupprimerVoiture unSupprimerVoiture = new Forms.FSupprimerVoiture(uneVoiture);
+           
+            Forms.FSupprimerVoiture unSupprimerVoiture = new Forms.FSupprimerVoiture(uneAgence);
             unSupprimerVoiture.ShowDialog();
         }
 
@@ -275,23 +271,13 @@ namespace Parc_Auto
 
         private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne();
-=======
-            unePersonne = new Personne();
-            Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne(unePersonne);
->>>>>>> 4ce9ccf14bac43a64686edd42477a48b81fde3b9
-            unSupprimerPersonne.ShowDialog();
+            Forms.FSupprimerPersonne supPersonne = new Forms.FSupprimerPersonne(uneAgence);
+            supPersonne.Show();
         }
         private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne();
-=======
-            unePersonne = new Personne();
-            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
->>>>>>> 4ce9ccf14bac43a64686edd42477a48b81fde3b9
-            ajouterPersonne.ShowDialog();
+            Forms.FrmAjouterPersonne frmPersonne = new Forms.FrmAjouterPersonne();
+            frmPersonne.Show();
         }
 
 

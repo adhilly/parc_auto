@@ -70,6 +70,7 @@
             this.bt_FSupprimerVoiture_supprimer.TabIndex = 3;
             this.bt_FSupprimerVoiture_supprimer.Text = "Supprimer";
             this.bt_FSupprimerVoiture_supprimer.UseVisualStyleBackColor = true;
+            this.bt_FSupprimerVoiture_supprimer.Click += new System.EventHandler(this.bt_FSupprimerVoiture_supprimer_Click);
             // 
             // bt_FSupprimerVoiture_fermer
             // 
@@ -79,6 +80,7 @@
             this.bt_FSupprimerVoiture_fermer.TabIndex = 4;
             this.bt_FSupprimerVoiture_fermer.Text = "Fermer";
             this.bt_FSupprimerVoiture_fermer.UseVisualStyleBackColor = true;
+            this.bt_FSupprimerVoiture_fermer.Click += new System.EventHandler(this.bt_FSupprimerVoiture_fermer_Click);
             // 
             // FSupprimerVoiture
             // 
