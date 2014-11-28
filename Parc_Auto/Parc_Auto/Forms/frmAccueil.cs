@@ -280,21 +280,21 @@ namespace Parc_Auto
             Forms.FAPropos apropos = new Forms.FAPropos();
             apropos.ShowDialog();
         }
-        //private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
-        //{
-        //    Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne();
-        //    unePersonne = new Personne();
-        //    Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
-        //    ajouterPersonne.ShowDialog();
-        //}
+        private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne();
+            unePersonne = new Personne();
+            Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
+            ajouterPersonne.ShowDialog();
+        }
 
-        //private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
-        //{
-        //    Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne();
-        //    unePersonne = new Personne();
-        //    Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne(unePersonne);
-        //    unSupprimerPersonne.ShowDialog();
-        //}
+        private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne();
+            unePersonne = new Personne();
+            Forms.FSupprimerPersonne unSupprimerPersonne = new Forms.FSupprimerPersonne(unePersonne);
+            unSupprimerPersonne.ShowDialog();
+        }
         
 
 
