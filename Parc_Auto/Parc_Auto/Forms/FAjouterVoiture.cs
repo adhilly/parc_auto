@@ -52,8 +52,6 @@ namespace Parc_Auto.Forms
             {
                 MessageBox.Show(err.Message);
             }
-<<<<<<< HEAD
-=======
         }
 
         private void rb_FAjouterVoiture_Oui_CheckedChanged(object sender, EventArgs e)
@@ -63,8 +61,6 @@ namespace Parc_Auto.Forms
 
         private void rb_FAjouterVoiture_Non_CheckedChanged(object sender, EventArgs e)
         {
-
->>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5
         }
     }
 }

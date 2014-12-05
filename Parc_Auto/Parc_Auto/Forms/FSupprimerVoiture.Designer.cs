@@ -70,7 +70,7 @@
             this.bt_FSupprimerVoiture_supprimer.TabIndex = 3;
             this.bt_FSupprimerVoiture_supprimer.Text = "Supprimer";
             this.bt_FSupprimerVoiture_supprimer.UseVisualStyleBackColor = true;
-            this.bt_FSupprimerVoiture_supprimer.Click += new System.EventHandler(this.bt_FSupprimerVoiture_supprimer_Click);
+            //this.bt_FSupprimerVoiture_supprimer.Click += new System.EventHandler(this.bt_FSupprimerVoiture_supprimer_Click);
             // 
             // bt_FSupprimerVoiture_fermer
             // 

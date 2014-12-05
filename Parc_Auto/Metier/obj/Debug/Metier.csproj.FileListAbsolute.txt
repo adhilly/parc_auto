@@ -9,14 +9,11 @@ E:\Cour\TP\SLAM4\Parc_Auto\Metier\bin\Debug\Metier.pdb
 E:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.csprojResolveAssemblyReference.cache
 E:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.dll
 E:\Cour\TP\SLAM4\Parc_Auto\Metier\obj\Debug\Metier.pdb
-<<<<<<< HEAD
 H:\année2\SI7\Parc_auto\Parc_Auto\Metier\bin\Debug\Metier.dll
 H:\année2\SI7\Parc_auto\Parc_Auto\Metier\bin\Debug\Metier.pdb
 H:\année2\SI7\Parc_auto\Parc_Auto\Metier\obj\Debug\Metier.dll
 H:\année2\SI7\Parc_auto\Parc_Auto\Metier\obj\Debug\Metier.pdb
-=======
 H:\Deuxième année\SLAM4\parc_auto\Parc_Auto\Metier\bin\Debug\Metier.dll
 H:\Deuxième année\SLAM4\parc_auto\Parc_Auto\Metier\bin\Debug\Metier.pdb
 H:\Deuxième année\SLAM4\parc_auto\Parc_Auto\Metier\obj\Debug\Metier.dll
 H:\Deuxième année\SLAM4\parc_auto\Parc_Auto\Metier\obj\Debug\Metier.pdb
->>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5

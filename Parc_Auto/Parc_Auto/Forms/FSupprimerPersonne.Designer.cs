@@ -70,7 +70,7 @@
             this.bt_FSupprimerPersonne_supprimer.TabIndex = 3;
             this.bt_FSupprimerPersonne_supprimer.Text = "Supprimer";
             this.bt_FSupprimerPersonne_supprimer.UseVisualStyleBackColor = true;
-            this.bt_FSupprimerPersonne_supprimer.Click += new System.EventHandler(this.bt_FSupprimerPersonne_supprimer_Click);
+            //this.bt_FSupprimerPersonne_supprimer.Click += new System.EventHandler(this.bt_FSupprimerPersonne_supprimer_Click);
             // 
             // bt_FSupprimerPersonne_fermer
             // 
