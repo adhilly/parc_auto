@@ -23,7 +23,10 @@ namespace Parc_Auto
             get { return uneAgence; }
             set { uneAgence = value; }
         }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5
         public frmAccueil()
         {
             InitializeComponent();
@@ -243,8 +246,8 @@ namespace Parc_Auto
 
         private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            uneVoiture = new Voiture();
-            Forms.FSupprimerVoiture unSupprimerVoiture = new Forms.FSupprimerVoiture(uneVoiture);
+           
+            Forms.FSupprimerVoiture unSupprimerVoiture = new Forms.FSupprimerVoiture(uneAgence);
             unSupprimerVoiture.ShowDialog();
         }
 
@@ -271,6 +274,15 @@ namespace Parc_Auto
 
         private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+            Forms.FSupprimerPersonne supPersonne = new Forms.FSupprimerPersonne(uneAgence);
+            supPersonne.Show();
+        }
+        private void ajouterUnePersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.FrmAjouterPersonne frmPersonne = new Forms.FrmAjouterPersonne();
+            frmPersonne.Show();
+=======
             Close();
             
         }
@@ -286,6 +298,7 @@ namespace Parc_Auto
             unePersonne = new Personne();
             Forms.FrmAjouterPersonne ajouterPersonne = new Forms.FrmAjouterPersonne(unePersonne);
             ajouterPersonne.ShowDialog();
+>>>>>>> 54928922ad45fc4ade3cf1d5482fcda7d1425db5
         }
 
         private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)

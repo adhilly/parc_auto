@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
+    [Serializable]
    public class Agence
     {
         /// <summary>
